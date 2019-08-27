@@ -1,0 +1,214 @@
+body
+{
+background-color: #eeeeee;
+font-size: 17px 
+}
+
+#container
+{
+
+}
+
+header 
+{
+height: 105px;
+}
+h1
+/*
+46px hauteur entre body et h/nav
+*/
+{
+font-size: 55px;
+color:#2B3F48;
+float: left;
+margin: 25px 0 0 141px;
+}
+
+
+#menu
+{
+float:right;
+text-transform: uppercase;
+}
+
+#menu nav ul
+{
+margin: 50px 300px 0 0px;
+}
+
+#menu nav ul li {
+display:inline-block;
+margin: 0 30px 0 0;
+}
+
+#menu nav ul li a
+{
+list-style-type: none;
+text-decoration:none;
+color:#2B3F48;
+
+}
+
+#menu nav li a:hover 
+{
+ color:#27AE61;
+
+}
+
+#bodyh 
+/*
+824px h
+118px h entre image et body
+*/
+{
+height: 824px;
+background-image: url(images/banner.png);
+background-size: cover;
+background-color: #27ae61;
+}
+
+
+#liste
+{
+display:flex;
+justify-content: center;
+padding: 118px 0 86px 0;
+
+}
+
+#liste img
+/**/
+{
+border-radius: 50%;
+margin: 0 25px 0 25px;
+}
+
+
+
+h2
+{
+/*
+33px h entre lead et h
+*/
+font-size: 22px;
+text-align: center;
+color: #2B3F48
+}
+
+.lead
+/*
+74px entre lead et text
+*/
+{
+text-align: center;
+}
+
+p
+/*
+80px entre p et button
+*/
+{
+font-size: 17px;
+text-align: center;
+margin: auto;
+padding: 0 0 80px 0;
+width: 50%
+}
+
+
+button 
+{
+width:150px;
+line-height:30px;
+vertical-align:middle;
+margin:0 0px 0 870px;
+border:none;
+padding:6px 0 6px 0;
+border-radius:8px;
+background:#d34836;
+
+}
+button a
+{
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+margin: 0 0 0 0;
+}
+
+#bodyh button
+{
+background-color: #2b3f48;
+}
+
+#bodym button
+{
+background-color: #27ae61;
+}
+
+
+
+#bodyb button
+{
+background-color: white;
+color:#27ae61;
+}
+
+#bodyb button a
+{
+color:#27ae61;
+}
+/*
+28px h
+53px coté
+104px en bas
+*/
+{
+width: 106px;
+margin:auto;
+padding: auto;
+text-align: center;
+}
+
+#bodym
+{
+height: 604px;
+}
+
+#bodym h2
+{
+padding: 115px 0 0 0;
+}
+
+#bodyb
+/*
+604px h
+
+77px 
+*/
+{
+height: 604px;
+background-color: #27ae61;
+}
+
+#bodyb h2
+{
+padding: 115px 0 0 0;
+}
+
+footer 
+/*
+206 h
+105 h entre texte
+*/
+{
+	height: 206px;
+	display: flex;
+}
+
+
+#Copyright
+{
+	padding: 93px 0 93px 0;
+}
+

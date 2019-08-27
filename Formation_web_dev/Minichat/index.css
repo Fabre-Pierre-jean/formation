@@ -1,0 +1,14 @@
+body
+{
+  background-image: url("pokemonbackground.png");
+  background-size: cover;
+  font-size: 1.2em;
+}
+.formcontainer
+{
+background-color: rgb(217, 255, 179);
+border: solid black 5px;
+border-radius: 15px;
+width: 500px;
+sp
+}

@@ -1,0 +1,63 @@
+.headtitle.img
+{ text-align: center;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: 250px;
+
+
+}
+
+.arene
+{
+  text-align: center;
+  margin-top: 250px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 290px;
+}
+
+#pokemonback
+{
+
+  position: absolute;
+  z-index: 5;
+  margin-top: 290px;
+  margin-left: 200px;
+}
+ #pokemonface
+ {
+   position: absolute;
+   z-index: 5;
+   margin-top: 65px;
+   margin-left: 340px;
+ }
+
+.cadreattack
+{
+  margin-top: 500px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 0px;
+}
+
+.container
+{
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.attackbutton
+{
+  padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+.none{
+  display: none;
+}

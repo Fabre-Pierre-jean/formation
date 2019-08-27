@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+
+  <body>
+
+      <form onsubmit="return envoieformulaire(this)">
+      		<p>Ecris quelque chose sinon ca passera pas</p>
+      		
+      		<input type="text" name="pseudo" onblur="verifpseudo(this)">
+      		<p>Pseudo</p>
+      		<input type="text" name="mail" onblur="verifmail(this)">
+          	<p>Mail</p>
+          	<input type="submit" value="Send">
+      </form>
+
+      
+  </body>
+</html>

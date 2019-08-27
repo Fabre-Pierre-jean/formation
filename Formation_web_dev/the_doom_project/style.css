@@ -1,0 +1,122 @@
+.bord{
+	border:2px solid black;
+}
+/* enleve le decor bleu */
+img{
+	outline:0;
+	text-decoration: none;
+}
+
+head{
+	margin-top: 150px;
+}
+
+/* barre du player */
+.barLife{
+	height: 150px;
+	position:absolute;
+	top:835px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: center;
+}
+
+/* div affichage mechant */
+.vieMechant p{
+	margin-top: 200px;
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	
+}
+
+/* ecriture vie mechant*/
+span{
+	color: red;
+	font-size: 35px;
+}
+
+
+/* logo */
+.blue-column img {
+	margin-top: -500px;
+	margin-left: 750px;
+	width: 400px;
+	height: 150px;
+}
+
+
+
+.some-page-wrapper{
+    display: inline;
+}
+
+/* ligne div mechant*/
+.ligne{
+display:flex;
+margin-left:auto;
+margin-right:auto;
+margin-top:300px;
+}
+
+/* colonne bouton arme */
+.colonne{
+display:grid;
+right:400px;
+position: absolute;
+}
+
+/* background et font-family */
+body{
+background-image: url(images/map/map02_modifié.png);
+background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -200px;
+	font-family:'Press Start 2P', cursive;
+	font-size:20px;
+}
+
+/* affichage du lecteur */
+audio{
+	opacity:0;
+}
+
+audio:hover{
+	opacity: 1;
+}
+
+/* background barre player */
+.fond1{
+		background-color:lightslategrey;
+}
+
+/* div affichage de l'arme */
+.arm{
+    position:absolute;
+	bottom: 95px;
+	margin-left: 200px;
+}
+
+/* affichage des ennemis */
+#mechantImg{
+	display: flex;
+	margin-top: -250px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40px;
+	height: 45px;
+  }
+
+/*player.css*/
+#pistolet, #pompe, #ak47, #bazooka{
+	opacity: 0;
+}
+
+
+
+

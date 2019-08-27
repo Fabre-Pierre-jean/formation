@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+html{
+    height: 900px;
+}
+body{
+    background-image: url("../user_interface/background_global.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    margin: 0 0 0 0;
+}
+.game_text{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    margin: 10px 0 0 25px;
+    width: 150px;
+    z-index: 16;
+    position: absolute;
+}
+
+#logo{
+    margin-left: 750px;
+    margin-top: 0px;
+}
+#user_interact{
+    background-image: url("../user_interface/user_interact.png");
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 860px;
+    position: absolute;
+    z-index: 14;
+    margin-top: 470px;
+    margin-left: 550px;
+}
+
+
+#game{
+    background-image: url("../arenes/arena_foret.png");
+    border-radius: 3px;
+    height: 425px;
+    width: 860px;
+    z-index: 11;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 550px;
+}
+#frame{
+    background-image: url("../user_interface/frame_switch.png");
+    z-index: 10;
+    position: absolute;
+    height: 750px;
+    width: 1500px;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+/*----------------JOUEUR 1----------------*/
+#hud_player_1{
+    background-image: url("../user_interface/hud_p1.png");
+    background-repeat: no-repeat;
+    height: 93px;
+    width: 250px;
+    position: absolute;
+    z-index: 13;
+    margin-left: 550px;
+    margin-top: 325px;
+}
+#poke_actif_p1{
+    background-image: url("../pokemons/8torterra_back.gif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 174px;
+    width: 182px;
+    margin-top: 240px;
+    margin-left: 150px;
+}
+/*----------------FIN JOUEUR 1----------------*/
+
+
+/*----------------JOUEUR 2----------------*/
+#poke_actif_p2{
+    background-image: url("../pokemons/2tiplouf_front.gif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 174px;
+    width: 182px;
+    margin-top: -320px;
+    margin-left: 580px;
+}
+#hud_player_2{
+    background-image: url("../user_interface/hud_p2.png");
+    background-repeat: no-repeat;
+    height: 93px;
+    width: 250px;
+    position: absolute;
+    z-index: 13;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+/*----------------FIN JOUEUR 2----------------*/

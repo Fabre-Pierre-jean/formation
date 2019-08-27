@@ -1,0 +1,226 @@
+*{
+    font-family: 'Open Sans', 'Courier New', Courier, monospace; 
+    
+}
+
+
+header nav {
+    text-align: center;
+   padding-top: 50px;
+   
+   }
+   
+   header nav ul {
+   list-style-type: none;
+   height: 10px;
+   
+   }
+   
+   header nav ul li {
+     display: inline;
+   
+   }
+   
+   header nav ul li a {
+     color:white;
+     padding: 8px 16px;
+     text-decoration: none; 
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   header nav ul li a:hover {
+     text-decoration: none;
+   
+     color: white;
+     font-weight: bold;   
+   }
+
+   .sub_head{
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+    
+}
+
+#h1_obs{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 100px;
+    margin-bottom: 90px;
+}
+
+h2{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.hr1{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-color: white;
+    padding-bottom: 60px;
+}
+
+.section_top{
+    background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+	background-size: 100%;
+    background-position-y: -500px;
+  }
+  
+  .head{
+    background-color: rgba(44, 44, 44, 0.7);
+  }
+
+.some-page-wrapper img {
+ width: 400px;
+ height: auto;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+p{
+    color: white;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+/*
+footer{
+    background-color: black;
+    padding-top:100px;
+    margin-top: -180px;
+    padding-bottom: 50px;
+}*/
+
+/*  FOOTER */
+
+footer{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-top: -140px;
+}
+
+.foot{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#container-f{
+  display : flex;
+  flex-direction: row;
+  margin-bottom: 190px;
+  margin-top: 50px;
+}
+
+
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}
+
+footer hr{
+  border-color: grey;
+  margin: 0 90px;
+}

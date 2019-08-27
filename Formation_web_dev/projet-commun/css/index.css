@@ -1,0 +1,167 @@
+body{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-image: url("https://raw.githubusercontent.com/Fetra01/projet-commun/developpement/images/images%20redimensiones/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	-ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	background-position: 50% 30%;
+
+}
+header nav {
+ text-align: center;
+ margin-top: 60px;
+
+}
+
+header nav ul {
+list-style-type: none;
+height: 10px;
+
+}
+
+header nav ul li {
+  display: inline;
+
+}
+
+header nav ul li a {
+  color:white;
+  padding: 8px 16px;
+  text-decoration: none; 
+ font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li a:hover {
+
+  color: white;
+  font-weight: bold;   
+}
+
+#contenair{
+	margin-top: 15%;
+}
+
+h1{
+	font-family: 'Open sans', sans-serif;
+	font-size: 6em;
+	color: white;
+	font-weight: bold;
+}
+p{
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	font-weight: bold;
+}
+.bg{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#container-f{
+display : flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 190px;
+margin-left: 95px;
+margin-right: 95px;
+}
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+hr {
+color: #A9A7A7;
+margin-left: 95px;
+margin-right: 95px;
+}
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+padding-right: 45px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}

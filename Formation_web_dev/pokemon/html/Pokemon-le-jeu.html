@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <title>Pokemon, le jeu !- Page de Connexion</title>
+    </head>
+
+    <body>
+      <div class="container-header"> <!--Conteneur des titres-->
+      	<div id="header-title"> <!--titre principal-->
+          <h1>Pokemon Battle</h1>
+      	</div>
+      </div>
+<!--corps du hero-->
+      <div class="container-hero">
+          <img src="../images/homepage.gif" alt="moving pokeball">
+<!-- Debut de la zone de connexion -->
+  		<div id="container">
+        <form action="../php/testUsers.php" method="POST">
+          <h3>Connexion</h3>
+          <label><b>Nom d'utilisateur</b></label><input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+          <label><b>Mot de passe</b></label><input type="password" placeholder="Entrer le mot de passe" name="password" required>
+          <input type="submit" id='submit' value='Se Connecter' >
+        </form>
+  		</div>
+<!-- Fin de la zone de connexion -->
+      </div>
+  	</body>
+  </html>

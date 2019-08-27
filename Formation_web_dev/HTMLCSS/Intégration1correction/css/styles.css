@@ -1,0 +1,152 @@
+/*police à changer*/
+body
+{
+background-image: url(../images/bg.jpg);
+background: cover;
+font-family: "Josefin Sans", Arial, sans-serif;
+font-weight: bold;
+color: #7a7a7a;
+padding: 0 15% 0 15%;
+}
+
+#container
+{
+background-color: white;
+}
+
+#background
+{
+
+}
+/*police à changer*/
+header
+{
+font-family: "Bitter";
+display: inline;
+}
+
+#nav1
+{
+background-color: black;
+}
+
+
+.reseau_sociaux
+{
+background-color: #e8e8e8;
+text-align: center;
+text-decoration: none;
+word-spacing: 40px;
+font-size: 30px;
+height: 75px;
+margin: 20px 0 20px 0;
+padding: 0.5px 0 0px 0;
+}
+i
+{
+  color:#7a7a7a;
+}
+
+header nav 
+{
+text-align: center;
+height: 10px;
+}
+
+header nav ul 
+{
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+
+header nav ul li 
+{
+display: inline-block;
+padding: 0px 25px 0px;
+}
+
+header nav ul li a:hover 
+{
+color: #cfa205;
+}
+
+header nav ul li a 
+{
+text-transform: uppercase;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+color: white;
+}
+
+
+h1
+{
+font-size: 133px;
+text-align: center;
+color: #cfa205;
+height: 120px;
+}
+
+h2
+{
+color: #cfa205;
+font-size: 18px;
+height: 40px;
+text-align: center;
+text-transform: uppercase;
+}
+
+h3
+{
+color: black;
+font-size: 18px; 
+
+}
+
+
+
+p
+{
+}
+
+#lead
+{
+text-align: center;
+font-weight: bold;
+margin: 70px 30px 0px 30px;
+}
+
+hr
+
+{
+border-color:#7a7a7a;
+margin: 80px 190px 80px 190px;
+opacity:0.2; 
+}
+
+.content
+{
+display: flex;
+justify-content: center;
+font-size: 14px;
+margin: 0 80px 0 80px; 
+}
+
+.flames
+{
+width: 260px;
+}
+
+.adventurous
+{
+width: 260px;
+margin: 0px 0px 0px 80px;
+}
+
+.catch
+{
+width: 260px;
+margin: 0 0 0 80px;
+}

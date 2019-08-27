@@ -1,0 +1,278 @@
+*{
+    font-family: 'Open Sans', 'Courier New', Courier, monospace; 
+    
+}
+
+
+header nav {
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 52px;
+   }
+   
+   header nav ul {
+   list-style-type: none;
+   height: 10px;
+   
+   }
+   
+   header nav ul li {
+     display: inline;
+   
+   }
+   
+   header nav ul li a {
+     color:white;
+     padding: 8px 16px;
+     text-decoration: none; 
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   header nav ul li a:hover {
+     text-decoration: none;
+   
+     color: white;
+     font-weight: bold;   
+   }
+
+.sub_head{
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+    
+}
+
+#h1_obs{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 80px;
+    font-size: 100px;
+}
+
+h2{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+#h3_release{
+  color: white;
+  font-size: 45px;
+}
+
+#release{
+  color: #bcbcbc;
+  
+}
+
+.hr1{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-color: grey;
+    /*padding-bottom: 60px;*/
+}
+
+
+
+.butn{
+    margin: 5px 0px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(68, 68, 68, 0.719);
+    text-decoration: none;
+    width: 340px;
+    border: none;
+}
+  
+.butn:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.butn a, .butn a:hover{
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .pochette-column {
+   
+   margin-left: 100px;
+   margin-right: 0;
+   width: 0;
+  }
+  
+  .playlist-column {
+    margin-left:-300px;
+    margin-right: 90px;
+  }
+
+  .playlist-column a {
+    text-decoration: none;
+    color:white;
+    
+  }
+
+  .playlist-column a:hover {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+  }
+  
+  .playlist-column ol{
+  color: grey;
+  }
+
+  .butn-column {
+    height: 100px;
+    width: 0;
+    margin-left: 100px;
+    margin-top: -180px;  
+  }
+
+.some-page-wrapper{
+    display: inline;
+}
+
+.section_top{
+  background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position-y: -500px;
+  
+}
+.head{
+  background-color: rgba(44, 44, 44, 0.7);
+}
+
+footer{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-top: -140px;
+}
+
+.foot{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#container-f{
+  display : flex;
+  flex-direction: row;
+  margin-bottom: 190px;
+  margin-top: 50px;
+}
+
+
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}
+
+footer hr{
+  border-color: grey;
+  margin: 0 90px;
+}

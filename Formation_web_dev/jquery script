@@ -1,0 +1,24 @@
+ <form action="main.php" onsubmit="submit" id="test">
+        <input type="submit" value="attaquer" name="attack1">
+    </form>
+
+    <form action="main.php" method="post">
+        <input type="submit" value="attaquer" name="attack2">
+    </form>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<script>
+$('#test').submit(function(e){ // attrape le formulaire avec l'id correspondant
+        e.preventDefault(); // Empêche de soumettre le formulaire
+        $.ajax({
+            url: 'main.php', //donne l'url à laquelle renvoyer la donnée
+            type: 'POST', //type
+            data: // data à envoyer : la clé, puis la valeur que l'on va récupérer via son id dans le formulaire
+                {
+                    name: $('#name').val()
+                },
+        });
+    });
+</script>

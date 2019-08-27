@@ -1,0 +1,23 @@
+p
+{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    color:green;
+}
+
+.zoo::before{
+    background-image: url("https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D960%252C540%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C900%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-04%252F2d59b300-6679-11e9-a7f5-232c396f2851%26client%3Da1acac3e1b3290917d92%26signature%3D8fa744df39ab6ec6f4da93e7e74636836b832dfa&client=amp-blogside-v2&signature=f20f840f1f2722e8bd5a923274e495ed6f7999b6");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.4;
+}

@@ -1,0 +1,117 @@
+
+footer{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-top: -140px;
+}
+
+.foot{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#container-f{
+  display : flex;
+  flex-direction: row;
+  margin-bottom: 190px;
+  margin-top: 50px;
+}
+
+
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}
+
+footer hr{
+  border-color: grey;
+  margin: 0 90px;
+}

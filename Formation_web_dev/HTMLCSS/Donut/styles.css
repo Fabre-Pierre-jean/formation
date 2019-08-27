@@ -1,0 +1,279 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+
+/* General */
+
+
+body 
+{
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+background-image: url("bg-tiles");
+
+}
+
+
+.container 
+{
+
+}
+
+
+
+/* Typography */
+
+
+h1, h2 
+{
+font-weight: bold;
+font-family:'Love Ya Like A Sister';
+color: #d17f38;
+}
+
+
+h1 
+{
+font-family:'Love Ya Like A Sister';
+color: #d17f38;
+text-align: center;
+font-weight: bold;
+}
+
+
+h1 em 
+{
+font-style: bold;
+color: #4b2707;
+}
+
+
+h2 
+{
+font-family:'Love Ya Like A Sister';
+color: #d17f38;
+}
+
+
+h3 
+{
+color: #4b2707;
+}
+
+p
+.lead 
+{
+text-align: center;
+
+}
+
+
+p 
+{
+font-family:'Open Sans';
+text-align: left;
+
+
+}
+
+
+a:link, 
+a:visited 
+{
+
+}
+
+
+a:hover 
+{
+text-decoration: underline;
+color: #d17f38;
+}
+
+
+hr 
+{
+
+}
+
+
+
+/* Header */
+
+
+header nav {
+
+}
+
+
+header nav ul {
+
+}
+
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+
+header nav ul li a:hover {
+
+}
+
+
+header nav ul li#logo a {
+
+}
+
+
+header nav ul li#logo a:hover {
+
+}
+
+
+
+/* Hero */
+
+
+#hero {
+
+}
+
+
+#hero 
+.container 
+{
+text-align: center;
+background-color: orange;
+}
+
+
+#hero .large-ribbon {
+
+}
+
+
+
+/* The Whole Story */
+
+
+#story-excerpt {
+
+}
+
+
+#best-donut {
+
+
+
+
+/* News & Events */
+
+
+#articles {
+
+}
+
+
+#feature-image 
+{
+float: right;
+}
+
+
+#news-events article {
+
+}
+
+
+#news-events article.news {
+
+}
+
+
+#news-events article.event {
+
+}
+
+
+#news-events header time {
+
+}
+
+
+#news-events section.excerpt {
+
+}
+
+
+#news-events footer {
+
+}
+
+
+
+/* Footer */
+
+
+footer.main 
+{
+
+}
+
+
+footer.main 
+a:hover
+{
+
+}
+
+#uncopyright, 
+#credits {
+
+}
+
+
+#uncopyright {
+
+}
+
+
+#credits 
+{
+text-align: right;
+color: white;
+}
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html 
+.group             { zoom: 1; } 
+/* IE6 */
+*
+:first-child+html 
+.group { zoom: 1; } /* IE7 */
+
+
+
+
+

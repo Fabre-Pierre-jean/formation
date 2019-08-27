@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+.filtre{
+background-color: rgba(1,1,1,0.7);
+
+}
+
+body{
+background-image: url("https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg");
+background-size: cover;
+background-position-y: -27em;
+}
+
+
+
+
+header nav {
+ text-align: center;
+ margin-top: 60px;
+
+}
+
+header nav ul {
+list-style-type: none;
+height: 10px;
+
+}
+
+header nav ul li {
+  display: inline;
+
+}
+
+header nav ul li a {
+  color:white;
+  padding: 8px 16px;
+  text-decoration: none; 
+ font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: white;
+  font-weight: bold;   
+  text-decoration: none;
+}
+
+.container-c {
+display: flex;
+}
+
+input[type=text],textarea {
+  padding: 12px;
+  border: 1px solid grey;
+  resize: vertical;
+  width: 400px;
+  opacity: 0.3;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+}
+
+.search {
+  font-family: Arial;
+  box-sizing: border-box;}
+ 
+ form.example input[type=text]
+  {padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+opacity: 0.3;
+}
+
+.container-f{
+display : flex;
+align-items :flex-end;
+
+}
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+hr {
+color: #A9A7A7;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+padding-right: 45px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+.reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+.copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}

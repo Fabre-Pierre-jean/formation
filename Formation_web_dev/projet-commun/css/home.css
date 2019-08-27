@@ -1,0 +1,247 @@
+
+body{
+	background-image:url(https://raw.githubusercontent.com/Fetra01/projet-commun/developpement/images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-position: 40% 40%;
+}
+.section_top{
+	background-color: rgba(0,0,0,0.7);
+}
+header nav {
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 52px;
+   }
+   
+   header nav ul {
+   list-style-type: none;
+   height: 10px;
+   
+   }
+   
+   header nav ul li {
+     display: inline;
+   
+   }
+   
+   header nav ul li a {
+     color:white;
+     padding: 8px 16px;
+     text-decoration: none; 
+   ²font-family: 'Open Sans', sans-serif;
+   }
+   
+   header nav ul li a:hover {
+     text-decoration: none;
+   
+     color: white;
+     font-weight: bold;   
+   }
+
+.sub_head{
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+    
+}
+
+#h1_obs{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 80px;
+    font-size: 100px;
+}
+
+h2{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+/*--------------------------end header--------------------*/
+
+#Titrehome{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#Contenuhome{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 1100px;
+}
+#Titrevideohome{
+	display: flex;
+	justify-content: space-between;	
+	margin-bottom: 2em;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.youtube{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3em;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+#v1{
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 20px;
+	border-top-color: #636363;
+	border-bottom-color: #636363;
+}
+#v3{
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 20px;
+	border-top-color: #636363;
+	border-bottom-color: #636363;
+}
+#v2{
+	border: solid 1px;
+	padding: 20px;
+	border-color: #636363;
+}
+.youtube h5{
+	margin-top: 20px;
+}
+#tb p{
+	text-align: center;
+}
+#tb .table{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+#tb{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+/*----------------------------------------------------------------*/
+
+
+footer{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+.foot{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#container-f{
+  display : flex;
+  flex-direction: row;
+  margin-bottom: 190px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
+}
+
+footer hr{
+  border-color: grey;
+  margin: 0 90px;
+  
+}
