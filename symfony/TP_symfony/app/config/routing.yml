@@ -1,3 +1,7 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+helloWorldStyle:
+    path: /hello
+    controller: AppBundle\Controller\Hellopj::indexAction
