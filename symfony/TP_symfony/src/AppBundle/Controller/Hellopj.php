@@ -2,17 +2,14 @@
 
 namespace AppBundle\Controller;
 
+    use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
     use Symfony\Component\HttpFoundation\Response;
-    use Twig\Environment;
 
-
-    class Hellopj
+    class Hellopj extends AbstractController
 {
-    public function indexAction(Environment $twig)
+    public function indexAction()
     {
-
-        $content = $content = $twig->render('default/hello.html.twig', ['name' => 'PJ']);
-
-    return new Response($content);
+        $content = $this->render('default/hello.html.twig', ['name' => 'PJ']);
+        return new Response($content);
   }
 }
