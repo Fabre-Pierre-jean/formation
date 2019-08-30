@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Promo</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ promo.id }}</td>
+            </tr>
+            <tr>
+                <th>Nbeleve</th>
+                <td>{{ promo.nbEleve }}</td>
+            </tr>
+            <tr>
+                <th>Coursetitle</th>
+                <td>{{ promo.courseTitle }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('promo_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('promo_edit', { 'id': promo.id }) }}">Edit</a>
+        </li>
+        <li>
+            <a href="{{ path('promo_new') }}">Create a new promo</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}
