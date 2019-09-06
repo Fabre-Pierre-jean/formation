@@ -1,35 +1,31 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Article</h1>
+    <h1>Author</h1>
 
     <table>
         <tbody>
             <tr>
                 <th>Id</th>
-                <td>{{ article.id }}</td>
+                <td>{{ author.id }}</td>
             </tr>
             <tr>
                 <th>Titre</th>
-                <td>{{ article.titre }}</td>
+                <td>{{ author.lastname }}</td>
             </tr>
             <tr>
                 <th>Texte</th>
-                <td>{{ article.texte }}</td>
-            </tr>
-            <tr>
-                <th>Image</th>
-                <td>{{ article.image }}</td>
+                <td>{{ author.firstname }}</td>
             </tr>
         </tbody>
     </table>
 
     <ul>
         <li>
-            <a href="{{ path('article_index') }}">Back to the list</a>
+            <a href="{{ path('author.index') }}">Back to the list</a>
         </li>
         <li>
-            <a href="{{ path('article_edit', { 'id': article.id }) }}">Edit</a>
+            <a href="{{ path('author.edit', { 'id': author.id }) }}">Edit</a>
         </li>
         <li>
             {{ form_start(delete_form) }}

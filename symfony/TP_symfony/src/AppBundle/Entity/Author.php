@@ -4,6 +4,7 @@ namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * Author
  *
@@ -26,7 +27,7 @@ class Author
      *
      * @ORM\Column(name="lastname", type="string", length=255)
      */
-    private $name;
+    private $lastname;
 
     /**
      * @var string
@@ -61,27 +62,27 @@ class Author
     }
 
     /**
-     * Set name
+     * Set lastname
      *
-     * @param string $name
+     * @param string $lastname
      *
      * @return Author
      */
-    public function setName($name)
+    public function setLastname($lastname)
     {
-        $this->name = $name;
+        $this->lastname = $lastname;
 
         return $this;
     }
 
     /**
-     * Get name
+     * Get lastname
      *
      * @return string
      */
-    public function getName()
+    public function getLastname()
     {
-        return $this->name;
+        return $this->lastname;
     }
 
     /**
@@ -155,5 +156,6 @@ class Author
     {
         return $this->mail;
     }
+
 }
 

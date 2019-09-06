@@ -1,32 +1,31 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Articles list</h1>
+    <h1>Author list</h1>
 
-    <table>
-        <thead>
+    <table class="table">
+        <thead class="thead-dark">
             <tr>
-                <th>Id</th>
-                <th>Titre</th>
-                <th>Texte</th>
-                <th>Image</th>
-                <th>Actions</th>
+                <th scope="col">Id</th>
+                <th scope="col">Titre</th>
+                <th scope="col">Texte</th>
+                <th scope="col">Image</th>
+                <th scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
-        {% for article in articles %}
+        {% for author in author %}
             <tr>
-                <td><a href="{{ path('article_show', { 'id': article.id }) }}">{{ article.id }}</a></td>
-                <td>{{ article.titre }}</td>
-                <td>{{ article.texte }}</td>
-                <td>{{ article.image }}</td>
+                <td><a href="{{ path('author.show', { 'id': author.id }) }}">{{ author.id }}</a></td>
+                <td>{{ author.lastname }}</td>
+                <td>{{ author.firstname }}</td>
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('article_show', { 'id': article.id }) }}">show</a>
+                            <a href="{{ path('author.show', { 'id': author.id }) }}">show</a>
                         </li>
                         <li>
-                            <a href="{{ path('article_edit', { 'id': article.id }) }}">edit</a>
+                            <a href="{{ path('author.edit', { 'id': author.id }) }}">edit</a>
                         </li>
                     </ul>
                 </td>
@@ -37,7 +36,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('article_new') }}">Create a new article</a>
+            <a href="{{ path('author.new') }}">Create a new author</a>
         </li>
     </ul>
 {% endblock %}

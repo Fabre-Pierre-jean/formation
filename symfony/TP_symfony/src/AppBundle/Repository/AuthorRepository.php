@@ -10,4 +10,11 @@ namespace AppBundle\Repository;
  */
 class AuthorRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllAuthorByNameAsc()
+    {
+        return $this->createQueryBuilder('p')
+            ->orderBy('p.lastname', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
 }

@@ -3,19 +3,15 @@
 {% block body %}
     <ul>
         <li>
-            <a href="{{ path('home_new') }}">Create planning semaine N</a>
+            <a href="{{ path('home2_new') }}">Create planning semaine N+1</a>
         </li>
         <li>
-            <a href="{{ path('formateur_new') }}">Create a new formateur</a>
-        </li>
-        <li>
-            <a href="{{ path('promo_new') }}">Create a new promo</a>
-        </li>
-        <li>
-            <a href="{{ path('salle_new') }}">Create a new salle</a>
+            <a href="{{ path('home_index') }}">Back to the Home</a>
         </li>
     </ul>
-    <h1>Planning semaine N</h1>
+
+
+    <h1>Planning semaine N+1</h1>
 
     <table class="table">
         <thead class="thead-dark">
@@ -34,18 +30,17 @@
             <tr>
                 <td>{{ home.formateur }}</td>
                 <td>{{ home.salle }}</td>
-                <td>{{  home.type  }}</td>
+                <td>{{ home.type }}</td>
                 <td>{{ home.promo }}</td>
                 <td>{{ home.day }}</td>
-                <td>{% if home.halfDay %} Matin {% else  %} Aprem {% endif %}</td>
-
+                <td>{{ home.halfDay }}</td>
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('home_show', { 'id': home.id }) }}">show</a>
+                            <a href="{{ path('home2_edit', { 'id': home.id }) }}">edit</a>
                         </li>
                         <li>
-                            <a href="{{ path('home_edit', { 'id': home.id }) }}">edit</a>
+                            <a href="{{ path('home2_delete', { 'id': home.id }) }}">delete</a>
                         </li>
                     </ul>
                 </td>
@@ -53,6 +48,4 @@
         {% endfor %}
         </tbody>
     </table>
-
-
 {% endblock %}

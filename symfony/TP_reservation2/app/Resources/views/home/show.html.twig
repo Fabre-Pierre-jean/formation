@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Home</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Salle</th>
+                <td>{{ home.salle }}</td>
+            </tr>
+            <tr>
+                <th>Promo</th>
+                <td>{{ home.promo }}</td>
+            </tr>
+            <tr>
+                <th>Formateur</th>
+                <td>{{ home.formateur }}</td>
+            </tr>
+            <tr>
+                <th>Type</th>
+                <td>{{ home.type }}</td>
+            </tr>
+            <tr>
+                <th>Demi journée</th>
+                <td>{{ home.halfDay }}</td>
+            </tr>
+            <tr>
+                <th>Jour</th>
+                <td>{{ home.day }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('home_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('home_edit', { 'id': home.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

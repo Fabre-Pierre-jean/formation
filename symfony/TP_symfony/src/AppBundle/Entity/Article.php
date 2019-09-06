@@ -3,6 +3,8 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\ManyToOne as ManyToOne;
+use Doctrine\ORM\Mapping\JoinColumn as JoinColumn;
 
 /**
  * Article
@@ -41,6 +43,13 @@ class Article
      * @ORM\Column(name="image", type="string", length=255)
      */
     private $image;
+
+
+    /**
+     * @ManyToOne(targetEntity="Author")
+     * @JoinColumn(name="fk_author_id", referencedColumnName="id")
+    */
+    private $author;
 
 
     /**
@@ -124,5 +133,20 @@ class Article
     {
         return $this->image;
     }
-}
 
+    /**
+     * @param mixed $author
+     */
+    public function setAuthor($author): void
+    {
+        $this->author = $author;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAuthor()
+    {
+        return $this->author;
+    }
+}
