@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <ul>
+        <li>
+            <a href="{{ path('home_new') }}">Create planning semaine N</a>
+        </li>
+        <li>
+            <a href="{{ path('formateur_new') }}">Create a new formateur</a>
+        </li>
+        <li>
+            <a href="{{ path('promo_new') }}">Create a new promo</a>
+        </li>
+        <li>
+            <a href="{{ path('salle_new') }}">Create a new salle</a>
+        </li>
+    </ul>
+    <h1>Planning semaine N</h1>
+
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th class="col">Formateur</th>
+            <th class="col">Salle</th>
+            <th class="col">Type</th>
+            <th class="col">Promotion</th>
+            <th class="col">Jour</th>
+            <th class="col">Demi-Journée</th>
+            <th class="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for home in homes %}
+            <tr>
+                <td>{{ home.formateur }}</td>
+                <td>{{ home.salle }}</td>
+                <td>{{  home.type  }}</td>
+                <td>{{ home.promo }}</td>
+                <td>{{ home.day }}</td>
+                <td>{% if home.halfDay %} Matin {% else  %} Aprem {% endif %}</td>
+
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('home_show', { 'id': home.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('home_edit', { 'id': home.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+{% endblock %}
